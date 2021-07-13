@@ -1,7 +1,7 @@
 {
   "name": "Error and exception",
   "description": "most common exceptions that you can encounter in projects developed with UiPath",
-  "main": "Main.xaml",
+  "main": "Practice_2.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.10.4]",
     "UiPath.Mail.Activities": "[1.10.5]",
@@ -14,6 +14,7 @@
   "studioVersion": "21.4.4.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "Excel_openned.xaml",
     "autoDispose": false,
     "isPausable": true,
     "requiresUserInteraction": true,
@@ -42,8 +43,14 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "54887cf3-2bad-428a-8b0c-670a5c791c84",
+      "filePath": "Practice_1.xaml",
+      "uniqueId": "a1fb6c3a-d046-450e-ade7-77db1aea0fd9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Practice_2.xaml",
+      "uniqueId": "c92d414c-6451-49b3-aa89-bd48c58d398d",
       "input": [],
       "output": []
     }
